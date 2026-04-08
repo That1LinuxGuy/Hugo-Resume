@@ -13,5 +13,5 @@ This repository will feed into [Resume](https://github.com/That1LinuxGuy/Resume)
 - [ ] success?
 
 ### Thanks to:
-[Hugo](https://gohugo.io/) again for allowing me to very quickly build and deploy a respectable website
+[Hugo](https://gohugo.io/) again for allowing me to very quickly build and deploy a respectable website 
 [Hugo-profile](https://github.com/gurusabarish/hugo-profile) for a very simple-to-edit, but professional looking template. Bonus points for the great documentation
