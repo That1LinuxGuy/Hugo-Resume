@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # needed for theme
+          submodules: true       # needed for theme
           fetch-depth: 0         # Fetch all history for dates/metadata
 
       - name: Setup Hugo
