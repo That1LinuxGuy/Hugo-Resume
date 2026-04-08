@@ -1,0 +1,34 @@
+name: Build and Deploy to Second Repo
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # needed for theme
+          fetch-depth: 0         # Fetch all history for dates/metadata
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.141.0'
+          extended: true
+
+      - name: Build Site
+        run: hugo --minify
+
+      - name: Deploy
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          publish_dir: ./public
+          external_repository: That1LinuxGuy/Resume
+          publish_branch: main
