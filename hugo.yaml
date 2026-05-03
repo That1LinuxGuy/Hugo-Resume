@@ -19,11 +19,11 @@ languages:
           title: Blog posts
           url: /blogs
           weight: 1
-        - identifier: gallery
-          name: Gallery
-          title: Image gallery
-          url: /gallery
-          weight: 2
+#        - identifier: gallery
+#          name: Gallery
+#          title: Image gallery
+#          url: /gallery
+#          weight: 2
 #  es:
 #    languageName: "Español"
 #    weight: 2
@@ -399,7 +399,7 @@ params:
        - "Docker"
        - "Bash"
        - "Github Actions"
-       - "ArgoCD"
+       - "fluxCD"
   # Experience
   experience:
     enable: true
@@ -499,7 +499,7 @@ params:
     items:
       - title: Joint Service Commondation Medal
         content: I demonstrated exceptional work ethic and leadership during my 5 years of service at the National Security Agency-Texas
-        url: https://example.com
+        url: https://withmilitaryhonors.com/awards/air_force/af_175.php
         image: /images/JSCM.jpg
 
   # projects
@@ -512,7 +512,7 @@ params:
         image: /images/nixos.png
         featured:
           name: Configuration
-          link: https://github.com/That1LinuxGuy/NixConfig
+          link: https://github.com/That1LinuxGuy/Homelab
         badges:
           - "OS-as-Code"
           - "Security First"
@@ -564,7 +564,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/That1LinuxGuy
@@ -579,7 +579,7 @@ params:
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
       enable: true
       content: "min read"
