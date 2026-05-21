@@ -17,7 +17,7 @@ languages:
         - identifier: blog
           name: Blog
           title: Blog posts
-          url: /blogs
+          url: blogs/
           weight: 1
 #        - identifier: gallery
 #          name: Gallery
@@ -261,7 +261,7 @@ Menus:
     - identifier: gallery
       name: Gallery
       title: Gallery
-      url: /gallery
+      url: gallery/
       weight: 2
     #Dropdown menu
     # - identifier: dropdown
@@ -360,14 +360,14 @@ params:
     title: "Michael"
     subtitle: "I like Linux, servers, and automation"
     content: "As a United States Air Force intelligence analyst transitioning into DevOps, I have unique insight into security best practices"
-    image: /images/hero.jpg
+    image: /Resume/images/hero.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "/michael-resume.pdf"
+      url: "michael-resume.pdf"
       download: true
       newPage: true
     socialLinks:
@@ -500,7 +500,7 @@ params:
       - title: Joint Service Commondation Medal
         content: I demonstrated exceptional work ethic and leadership during my 5 years of service at the National Security Agency-Texas
         url: https://withmilitaryhonors.com/awards/air_force/af_175.php
-        image: /images/JSCM.jpg
+        image: /Resume/images/JSCM.jpg
 
   # projects
   projects:
@@ -509,7 +509,7 @@ params:
     items:
       - title: NixOS based K3S cluster
         content: My personal setup for automatically managing, expanding, and maintaining my home infrastructure
-        image: /images/nixos.png
+        image: /Resume/images/nixos.png
         featured:
           name: Configuration
           link: https://github.com/That1LinuxGuy/Homelab
