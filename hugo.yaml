@@ -1,4 +1,4 @@
-baseURL: "https://michael.713602.xyz"
+baseURL: "https://that1linuxguy.github.io/Resume/"
 languageCode: "en-us"
 title: "Michael Profile"
 theme: "hugo-profile"
@@ -477,7 +477,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Bachelors of Arts - Spanish Emphasis"
+      - title: "Bachelors of Arts Foreign Language- Spanish Emphasis"
         school:
           name: "Defense Language Institude - Foreign Language Center"
           url: "https://www.dliflc.edu/"

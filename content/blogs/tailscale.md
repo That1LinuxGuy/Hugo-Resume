@@ -1,6 +1,5 @@
 +++
 date = '2026-05-02'
-draft = false
 title = 'Tailscale Kubernetes Operator'
 tags = ["networking", "kubernetes"]
 +++
