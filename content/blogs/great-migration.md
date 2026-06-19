@@ -10,7 +10,7 @@ I currently have my K3S cluster running on NixOS. This has been invaluable to me
 
 *However*
 
-This is a problem for my laptop. Currently, I have Bazzite installed because I though that someday, maybe I would play some videogames on it. That was a lie. So now I have a 'gaming' laptop with no games and a lot of software I have no need of. This is my plan to fix that.
+This is a problem for my laptop. Currently, I have Bazzite installed because I thought that someday, maybe I would play some videogames on it. That was a lie. So now I have a 'gaming' laptop with no games and a lot of software I have no need of. This is my plan to fix that.
 
 ## Planning the Migration
 
@@ -20,7 +20,7 @@ While it would be nice to reboot and install immediately, I do have necessary fi
 2. Ensure my dotfiles are safely in github
 3. Install NixOS and enable flakes
 4. Pull my [Homelab Repo](https://github.com/That1LinuxGuy/Homelab) and add my laptop configuration
-5. Commit, Modify the update command, and finish
+5. Commit, Modify the nixos-rebuild command to pull from my repo, and finish
 
 ## Potential Issues
 
@@ -32,4 +32,4 @@ While 5 steps is not complex, per-se, I assume I will run into issues along the 
 
 ## Post Mortem
 
-TBD :construction: :construction: :construction:
+:construction: :construction: :construction: TBD :construction: :construction: :construction:
