@@ -266,17 +266,15 @@ params:
         GPA: "4.2 out of 5.0"
 
   # Achievements
-  certifications:
+  achievements:
     enable: true
-    # title: "Custom Name"
+    title: "Certifications"
     items:
-      - title: Joint Service Commondation Medal
-        content: I demonstrated exceptional work ethic and leadership during my 5 years of service at the National Security Agency-Texas
-        url: https://withmilitaryhonors.com/awards/air_force/af_175.php
-        image: /Resume/images/JSCM.jpg
-
+      
       - title: CompTIA Security +
         url: https://www.comptia.org/en-us/certifications/security/
+        image: /Resume/images/sec_plus.webp
+        content: the premier global certification that establishes the essential skills required for core security functions and a career in IT security
 
 
   # projects
