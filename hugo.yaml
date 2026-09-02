@@ -158,9 +158,7 @@ params:
     title: "About Me"
     # image: "/images/me.png"
     content: |-
-      I am a Security-Cleared Intelligence Analyst with experience managing high-stakes data in mission-critical environments, transitioning into DevOps. I have hands-on background with Linux systems, Docker containerization, and Kubernetes orchestration. I have a passion for rapidly mastering new technologies and building reliable infrastructurefor others to use.
-
-      I am currently building a local kubernetes cluster to practice my skills. This website is hosted directly from my own three node cluster
+      I am a Security-Cleared Intelligence Analyst with experience managing high-stakes data in mission-critical environments, transitioning into DevOps. I have hands-on background with Linux systems, Docker containerization, and Kubernetes orchestration. I have a passion for rapidly mastering new technologies and building reliable infrastructure for others to use.
 
     skills:
       enable: true
