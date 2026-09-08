@@ -1,6 +1,6 @@
 +++ 
 date = '2026-09-07' 
-title = 'First Every Root Cause Analysis' 
+title = 'First Ever Root Cause Analysis' 
 tags = ["linux", "kubernetes", "SRE"]
 +++
 
