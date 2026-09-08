@@ -77,14 +77,14 @@ Longhorn volumes proved overly persistent and operationally difficult to recover
 
 Longhorn was replaced with SeaweedFS, which is better suited to the low-bandwidth, small-data environment and provides a storage architecture that more closely matches the operational requirements of the cluster.
 
-The new storage solution will need to be re-evalated after some operational time. The administrator will keep logs of all issues relating to SeaweedFS and , on 1 October 2027, will report and failures, gaps, or issues associated with the new solution. 
+The new storage solution will need to be re-evalated after some operational time. The administrator will keep logs of all issues relating to SeaweedFS and , on 1 October 2026, will report and failures, gaps, or issues associated with the new solution. 
 #### 3. No independent data backup
 
 No independent backup existed for the affected user data. As a result, once the Longhorn volume and available snapshots were lost, there was no secondary recovery source available.
 
 Local application data should be backed up independently of the Kubernetes storage layer. Backups should initially be replicated to a NAS server on the local network and, where feasible, to an external or cloud-based storage provider. The backup process should also include periodic restoration testing to verify that backups are usable during an actual recovery scenario.
 
-This task will occur in two parts. Step one will consist of configuring a local Network Attached Storage as a volume backup target, receiving daily snapshots of all PVCs assocaited to Owncloud. This will be completed no later than 15 October, 2027. Step two will consist of configuring off-site backups for additional reliability. Cost analysis will need to be done in order to detemine the best solution for the given system. A solution will be chosen no later than 31 October, 2027. 
+This task will occur in two parts. Step one will consist of configuring a local Network Attached Storage as a volume backup target, receiving daily snapshots of all PVCs assocaited to Owncloud. This will be completed no later than 15 October, 2026. Step two will consist of configuring off-site backups for additional reliability. Cost analysis will need to be done in order to detemine the best solution for the given system. A solution will be chosen no later than 31 October, 2026. 
 
 #### 4. No cluster drift detection
 
@@ -92,4 +92,4 @@ Flux was not configured to detect and correct configuration drift. As a result, 
 
 Flux drift detection should first be enabled for infrastructure-related workloads and validated to ensure that reconciliation behaves as expected. Once validated, drift detection should also be enabled for application workloads so that manually modified or deleted resources are automatically reconciled back to their declared configuration.
 
-Drift Detection has been temporarily implemented in ownCloud to ensure the system maintains it's healthy state. However, Flux documentation lists limitations of this configuration especially as it relates to pod autoscaling. This will need to be evaluated as a long term solution, but is not a major priority. Completion date will be no later than 30 November, 2027.
+Drift Detection has been temporarily implemented in ownCloud to ensure the system maintains it's healthy state. However, Flux documentation lists limitations of this configuration especially as it relates to pod autoscaling. This will need to be evaluated as a long term solution, but is not a major priority. Completion date will be no later than 30 November, 2026.
